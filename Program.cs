@@ -35,3 +35,13 @@ Console.WriteLine(curso2); // Analise
 Console.WriteLine(Strings.Capitalizar("TADS"));
 
 // Console.WriteLine(Strings.Capitalizar(null));
+
+// TRABALHO, IMPLEMENTAR CONFORME A SAÍDA ESPERADA:
+
+Console.WriteLine(Strings.Reverse("analise")); // esilana
+
+Console.WriteLine(Strings.Rotate("analise")); // eanalis
+// seanali
+Console.WriteLine(Strings.Rotate(Strings.Rotate("analise")));
+
+Console.WriteLine(Strings.Repeat("tads", 3)); // tadstadstads
